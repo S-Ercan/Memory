@@ -216,9 +216,9 @@
       <p class="mg__start-screen--text">Flip the tiles and try to match them up in pairs. Pair up all the tiles to win. Try to complete the game in as few moves as possible!</p>\
       <h3 class="mg__start-screen--sub-heading">Select Level</h3>\
       <ul class="mg__start-screen--level-select">\
-      <li><span data-level="1">Level 1 - Easy (4 x 2)</span></li>\
-      <li><span data-level="2">Level 2 - Medium (6 x 3)</span></li>\
-      <li><span data-level="3">Level 3 - Hard (8 x 4)</span></li>\
+      <li><span data-level="1">Easy (2 x 2)</span></li>\
+      <li><span data-level="2">Medium (2 x 3)</span></li>\
+      <li><span data-level="3">Hard (2 x 4)</span></li>\
       </ul>';
     this.gameStartScreen.innerHTML = this.gameStartScreenHTML;
     this.game.appendChild(this.gameStartScreen);
@@ -295,8 +295,8 @@
    */
 
   Memory.prototype._renderTiles = function() {
-    this.gridX = this.level * 2 + 2;
-    this.gridY = this.gridX / 2;
+    this.gridX = parseInt(this.level) + 1;
+    this.gridY = 2;
     this.numTiles = this.gridX * this.gridY;
     this.halfNumTiles = this.numTiles/2;
     this.newCards = [];
