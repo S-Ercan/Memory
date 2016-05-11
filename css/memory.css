@@ -237,7 +237,7 @@ span.mg__tile--inside img {
  */
 .mg__wrapper {
   margin: 0 auto;
-  width: 100%;
+  width: 80%;
 }
 
 .mg__contents {
@@ -262,25 +262,25 @@ span.mg__tile--inside img {
 
 /* game__level-1 styles */
 .mg__level-1 .mg__tile {
-  width: 25%;
-  height: 50%;
+  width: 30%;
+  height: 60%;
 }
 
 .mg__level-1 .mg__tile-1 {
   top: 0%;
-  left: 0%;
+  left: 20%;
 }
 .mg__level-1 .mg__tile-2 {
   top: 0%;
-  left: 25%;
+  left: 50%;
 }
 .mg__level-1 .mg__tile-3 {
-  top: 50%;
-  left: 0%;
+  top: 60%;
+  left: 20%;
 }
 .mg__level-1 .mg__tile-4 {
-  top: 50%;
-  left: 25%;
+  top: 60%;
+  left: 50%;
 }
 
 /* game__level-2 styles */
@@ -291,66 +291,66 @@ span.mg__tile--inside img {
 
 .mg__level-2 .mg__tile-1 {
   top: 0%;
-  left: 0%;
+  left: 12.5%;
 }
 .mg__level-2 .mg__tile-2 {
   top: 0%;
-  left: 25%;
+  left: 37.5%;
 }
 .mg__level-2 .mg__tile-3 {
   top: 0%;
-  left: 50%;
+  left: 62.5%;
 }
 .mg__level-2 .mg__tile-4 {
   top: 50%;
-  left: 0%;
+  left: 12.5%;
 }
 .mg__level-2 .mg__tile-5 {
   top: 50%;
-  left: 25%;
+  left: 37.5%;
 }
 .mg__level-2 .mg__tile-6 {
   top: 50%;
-  left: 50%;
+  left: 62.5%;
 }
 
 /* game__level-3 styles */
 .mg__level-3 .mg__tile {
-  width: 20%;
-  height: 40%;
+  width: 22%;
+  height: 45%;
 }
 
 .mg__level-3 .mg__tile-1 {
   top: 0%;
-  left: 0%;
+  left: 6%;
 }
 .mg__level-3 .mg__tile-2 {
   top: 0%;
-  left: 20%;
+  left: 28%;
 }
 .mg__level-3 .mg__tile-3 {
   top: 0%;
-  left: 40%;
+  left: 50%;
 }
 .mg__level-3 .mg__tile-4 {
   top: 0%;
-  left: 60%;
+  left: 72%;
 }
 .mg__level-3 .mg__tile-5 {
-  top: 40%;
-  left: 0%;
+  top: 45%;
+  left: 6%;
 }
 .mg__level-3 .mg__tile-6 {
-  top: 40%;
-  left: 20%;
+  top: 45%;
+  left: 28%;
 }
 .mg__level-3 .mg__tile-7 {
-  top: 40%;
-  left: 40%;
+  top: 45%;
+  left: 50%;
 }
 .mg__level-3 .mg__tile-8 {
-  top: 40%;
-  left: 60%;
+  top: 45%;
+  left: 72%;
 }
 
 /**
