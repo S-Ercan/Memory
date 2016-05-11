@@ -49,10 +49,14 @@ a {
   text-decoration: none;
 }
 
-img {
+span.mg__tile--inside img {
   display: block;
-  max-width: 100%;
+  width: 95%;
   height: auto;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
 }
 
 /* =============================================================================
