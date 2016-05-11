@@ -269,6 +269,12 @@
    */
 
   Memory.prototype._setupGameWrapper = function(levelNode) {
+	// Fire event to indicate that the game has started 
+	var event = document.createEvent('HTMLEvents');
+	event.initEvent('gameStarted', true, true);
+	event.eventName = 'gameStarted';
+	document.dispatchEvent(event);
+
     this.level = levelNode.getAttribute("data-level");
     this.gameStartScreen.parentNode.removeChild(this.gameStartScreen);
     this.gameContents.className = "mg__contents mg__level-"+this.level;
@@ -511,6 +517,12 @@
    */
 
   Memory.prototype.resetGame = function() {
+	// Fire event to indicate that the game has reset 
+	var event = document.createEvent('HTMLEvents');
+	event.initEvent('gameReset', true, true);
+	event.eventName = 'gameReset';
+	document.dispatchEvent(event);
+
     this._clearGame();
     this._setupGame();
   };
