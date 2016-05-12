@@ -183,6 +183,8 @@
    * 2 : set when user chooses level, and game is in play
    * 3 : game is finished
    */
+  
+  var selectedCity = localStorage.getItem('selectedCity');
 
   Memory.prototype._setupGame = function() {
     var self = this;
@@ -212,7 +214,7 @@
     this.gameMeta.innerHTML = this.gameMetaHTML;
     this.game.appendChild(this.gameMeta);
 
-    this.gameStartScreenHTML = '<h2 class="mg__start-screen--heading">Welcome to the Memory Game!</h2>\
+    this.gameStartScreenHTML = '<h2 class="mg__start-screen--heading">Welcome to' + ' ' + selectedCity + '!</h2>\
       <p class="mg__start-screen--text">Flip the tiles and try to match them up in pairs. Pair up all the tiles to win. Try to complete the game in as few moves as possible!</p>\
       <h3 class="mg__start-screen--sub-heading">Select Level</h3>\
       <ul class="mg__start-screen--level-select">\
