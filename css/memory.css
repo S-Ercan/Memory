@@ -31,8 +31,8 @@ html {
 
 body {
   color: #787a80;
-  background-color: #28aadc;
-  font-family: "Roboto Slab", serif;
+  background-color: #fff;
+  font-family: "Roboto Slab", Helvetica;
   font-size: 18px;
 }
 
@@ -69,7 +69,7 @@ img {
 .container {
   margin: 0 auto;
   width: 100%;
-  max-width: 1024px;
+  max-width: 100%;
 }
 
 /* header */
@@ -159,7 +159,7 @@ img {
  * and the number of moves the user has played.
  */
 .mg__meta {
-  margin-bottom: 10px;
+  /*margin-bottom: 90px;*/
   color: #28aadc;
 }
 
@@ -232,6 +232,9 @@ img {
  * memory tiles get arranged and ready for game play.
  */
 .mg__wrapper {
+  /*position: absolute;
+  left: 80%;*/
+  float: center;
   margin: 0 auto;
   width: 100%;
 }
@@ -260,6 +263,7 @@ img {
 .mg__level-1 .mg__tile {
   width: 25%;
   height: 50%;
+  margin-left: 25%;
 }
 
 .mg__level-1 .mg__tile-1 {
@@ -283,6 +287,7 @@ img {
 .mg__level-2 .mg__tile {
   width: 25%;
   height: 50%;
+  margin-left: 13%;
 }
 
 .mg__level-2 .mg__tile-1 {
@@ -314,6 +319,8 @@ img {
 .mg__level-3 .mg__tile {
   width: 20%;
   height: 40%;
+  margin-top: 5%;
+  margin-left: 10%;
 }
 
 .mg__level-3 .mg__tile-1 {
@@ -441,7 +448,7 @@ img {
   display: inline-block;
   padding: 5px;
   color: #fff;
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab", Helvetica;
   font-size: 14px;
   appearance: none;
   background: #ff3c50;
@@ -474,39 +481,3 @@ img {
  * you are going to use this in your own app, because they are useless and you
  * shouldn't be displaying my ad on your app/site in the first place. Thanks!
  */
-#fusionads {
-  display: inline-block;
-  padding: 5px;
-  background: white;
-  font-size: 11px;
-  line-height: 1.2;
-  text-align: left;
-}
-
-#fusionads .fusion-wrap {
-  display: block;
-  margin: 0 0 5px 0;
-  width: 130px;
-}
-
-#fusionads a.fusion-text {
-  display: block;
-  color: #787a80;
-}
-
-#fusionads a.fusion-img {
-  display: block;
-  margin-bottom: 5px;
-  width: 130px;
-  height: 100px;
-  background-color: #fff;
-}
-
-#fusionads a.fusion-img img {
-  display: block;
-  margin: 0 0 10px 0;
-}
-
-#fusionads a.fusion-poweredby {
-  color: #28aadc;
-}
