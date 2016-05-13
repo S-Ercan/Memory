@@ -201,12 +201,6 @@
     this.numMoves = 0;
 
     this.gameMetaHTML = '<div class="mg__meta--left">\
-      <span class="mg__meta--level">Level: \
-      <span id="mg__meta--level">' + this.chosenLevel + '</span>\
-      </span>\
-      <span class="mg__meta--moves">Moves: \
-      <span id="mg__meta--moves">' + this.numMoves + '</span>\
-      </span>\
       </div>\
       <div class="mg__meta--right">\
       <button id="mg__button--restart" class="mg__button">Start Over</button>\
@@ -283,7 +277,7 @@
     this.game.appendChild(this.gameWrapper);
 
     this.chosenLevel = this.level;
-    document.getElementById("mg__meta--level").innerHTML = this.chosenLevel;
+    // document.getElementById("mg__meta--level").innerHTML = this.chosenLevel;
 
     this._renderTiles();
   };

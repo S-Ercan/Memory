@@ -265,11 +265,9 @@ span.mg__tile--inside img {
 
 /* game__level-1 styles */
 .mg__level-1 .mg__tile {
-  width: 30%;
-  height: 60%;
   width: 25%;
   height: 50%;
-  margin-left: 25%;
+  margin-left: 5%;
 }
 
 .mg__level-1 .mg__tile-1 {
@@ -293,7 +291,6 @@ span.mg__tile--inside img {
 .mg__level-2 .mg__tile {
   width: 25%;
   height: 50%;
-  margin-left: 13%;
 }
 
 .mg__level-2 .mg__tile-1 {
@@ -323,12 +320,10 @@ span.mg__tile--inside img {
 
 /* game__level-3 styles */
 .mg__level-3 .mg__tile {
-  width: 22%;
-  height: 45%;
   width: 20%;
   height: 40%;
   margin-top: 5%;
-  margin-left: 10%;
+  margin-left: 2%;
 }
 
 .mg__level-3 .mg__tile-1 {
