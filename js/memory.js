@@ -209,7 +209,7 @@
     this.game.appendChild(this.gameMeta);
 
     this.gameStartScreenHTML = '<h2 class="mg__start-screen--heading">Welcome to' + ' ' + selectedCity + '!</h2>\
-      <p class="mg__start-screen--text">Flip the tiles and try to match them up in pairs. Pair up all the tiles to win. Try to complete the game in as few moves as possible!</p>\
+      <p class="mg__start-screen--text">Flip the tiles and try to match them up in pairs. Pair up all the tiles to win.</p>\
       <h3 class="mg__start-screen--sub-heading">Select Level</h3>\
       <ul class="mg__start-screen--level-select">\
       <li><span data-level="1">Easy (2 x 2)</span></li>\
