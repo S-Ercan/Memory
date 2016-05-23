@@ -392,6 +392,7 @@ span.mg__tile--inside img {
 .mg__tile--outside {
   background: url("../img/default/Memorabilia.png") 50% 50% no-repeat;
   background-color: #dcdee1;
+  background-size: 80%;
   box-shadow: 0 0 0 1px #787a80;
 }
 
