@@ -208,13 +208,13 @@
     this.gameMeta.innerHTML = this.gameMetaHTML;
     this.game.appendChild(this.gameMeta);
 
-    this.gameStartScreenHTML = '<h2 class="mg__start-screen--heading">Welcome to' + ' ' + selectedCity + '!</h2>\
-      <p class="mg__start-screen--text">Flip the tiles and try to match them up in pairs. Pair up all the tiles to win.</p>\
+    this.gameStartScreenHTML = '<h2 class="mg__start-screen--heading">Welcome to Memorabilia Game!</h2>\
+      <p class="mg__start-screen--text"><br>Flip the tiles and try to match them up in pairs. Pair up all the tiles to win.<br></p>\
       <h3 class="mg__start-screen--sub-heading">Select Level</h3>\
       <ul class="mg__start-screen--level-select">\
-      <li><span data-level="1">Easy (2 x 2)</span></li>\
-      <li><span data-level="2">Medium (2 x 3)</span></li>\
-      <li><span data-level="3">Hard (2 x 4)</span></li>\
+      <li><span data-level="1"><br><br><br>Easy (2 x 2)</span></li>\
+      <li><span data-level="2"><br><br><br><br>Medium (2 x 3)</span></li>\
+      <li><span data-level="3"><br><br><br><br>Hard (2 x 4)</span></li>\
       </ul>';
     this.gameStartScreen.innerHTML = this.gameStartScreenHTML;
     this.game.appendChild(this.gameStartScreen);
