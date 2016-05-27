@@ -212,9 +212,9 @@
       <p class="mg__start-screen--text"><br>Draai de kaarten om en vind paren die identiek zijn.<br/>Vind alle paren om het spel te winnen.<br/></p>\
       <h3 class="mg__start-screen--sub-heading">Kies niveau</h3>\
       <ul class="mg__start-screen--level-select">\
-      <li><span data-level="1"><br><br><br>Makkelijk (2 x 2)</span></li>\
-      <li><span data-level="2"><br><br><br><br>Gemiddeld (2 x 3)</span></li>\
-      <li><span data-level="3"><br><br><br><br>Moeilijk (2 x 4)</span></li>\
+      <li><span data-level="1"><br>Makkelijk (2 x 2)</span></li>\
+      <li><span data-level="2"><br><br>Gemiddeld (2 x 3)</span></li>\
+      <li><span data-level="3"><br><br>Moeilijk (2 x 4)</span></li>\
       </ul>';
     this.gameStartScreen.innerHTML = this.gameStartScreenHTML;
     this.game.appendChild(this.gameStartScreen);
