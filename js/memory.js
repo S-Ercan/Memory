@@ -203,18 +203,18 @@
     this.gameMetaHTML = '<div class="mg__meta--left">\
       </div>\
       <div class="mg__meta--right">\
-      <button id="mg__button--restart" class="mg__button">Start Over</button>\
+      <button id="mg__button--restart" class="mg__button">Begin opnieuw</button>\
       </div>';
     this.gameMeta.innerHTML = this.gameMetaHTML;
     this.game.appendChild(this.gameMeta);
 
-    this.gameStartScreenHTML = '<h2 class="mg__start-screen--heading">Welcome to Memorabilia Game!</h2>\
-      <p class="mg__start-screen--text"><br>Flip the tiles and try to match them up in pairs. Pair up all the tiles to win.<br></p>\
-      <h3 class="mg__start-screen--sub-heading">Select Level</h3>\
+    this.gameStartScreenHTML = '<h2 class="mg__start-screen--heading">Welkom bij het geheugen kaartspel!</h2>\
+      <p class="mg__start-screen--text"><br>Draai de kaarten om en vind paren die identiek zijn.<br/>Vind alle paren om het spel te winnen.<br/></p>\
+      <h3 class="mg__start-screen--sub-heading">Kies niveau</h3>\
       <ul class="mg__start-screen--level-select">\
-      <li><span data-level="1"><br><br><br>Easy (2 x 2)</span></li>\
-      <li><span data-level="2"><br><br><br><br>Medium (2 x 3)</span></li>\
-      <li><span data-level="3"><br><br><br><br>Hard (2 x 4)</span></li>\
+      <li><span data-level="1"><br><br><br>Makkelijk (2 x 2)</span></li>\
+      <li><span data-level="2"><br><br><br><br>Gemiddeld (2 x 3)</span></li>\
+      <li><span data-level="3"><br><br><br><br>Moeilijk (2 x 4)</span></li>\
       </ul>';
     this.gameStartScreen.innerHTML = this.gameStartScreenHTML;
     this.game.appendChild(this.gameStartScreen);
@@ -490,9 +490,9 @@
     var self = this;
     if (this.options.onGameEnd() === false) {
       this._clearGame();
-      this.gameMessages.innerHTML = '<h2 class="mg__onend--heading">Sweet!</h2>\
-        <p class="mg__onend--message">You won the round in ' + this.numMoves + ' moves. Go you.</p>\
-        <button id="mg__onend--restart" class="mg__button">Play again?</button>';
+      this.gameMessages.innerHTML = '<h2 class="mg__onend--heading">Gefeliciteerd!</h2>\
+        <p class="mg__onend--message">U heeft in ' + this.numMoves + ' zetten gewonnen!</p>\
+        <button id="mg__onend--restart" class="mg__button">Opnieuw spelen?</button>';
       this.game.appendChild(this.gameMessages);
       document.getElementById("mg__onend--restart").addEventListener( "click", function(e) {
         self.resetGame();
