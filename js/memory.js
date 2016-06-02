@@ -427,7 +427,7 @@
       self.card1.classList.remove("flipped");
       self.card2.classList.remove("flipped");
       self._gameResetVars();
-    }, 900 );
+    }, 2000 );
 
     // plus one on the move counter
     this._gameCounterPlusOne();
